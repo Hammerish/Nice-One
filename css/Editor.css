@@ -1,0 +1,62 @@
+#editor {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#editor h1 {
+    font-weight: 200;
+
+}
+
+
+#editor .conte {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+
+}
+
+.desedit {
+    margin: 20px;
+}
+
+#dit {
+    border-radius: 7px;
+    width: 400px;
+    height: 300px;
+    border: 5px solid #f0f2f3;
+}
+
+#editor a {
+    border-radius: 7px;
+    padding: 16px;
+
+    text-decoration: none;
+    background: rgba(0, 0, 0);
+    color: white;
+    transition: all 0.5s ease-out;
+
+
+}
+
+#editor a:hover {
+    transition: all 0.2s ease-in;
+    background: rgba(255, 255, 255);
+    color: black;
+
+}
+
+@media (min-width:768px) {
+    #dit {
+        width: 500px;
+    }
+}
+
+@media (min-width:1024px) {
+    #dit {
+        width: 900px;
+        height: 600px
+    }
+}

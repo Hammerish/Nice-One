@@ -1,0 +1,21 @@
+#blog .conte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+    border: 5px solid #fff;
+    border-radius: 7px;
+}
+
+#blog h2,
+h4 {
+    text-align: center;
+}
